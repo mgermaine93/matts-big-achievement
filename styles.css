@@ -3,6 +3,7 @@ body {
     color: #35454e;
     font-family: Helvetica;
     margin: 0;
+    text-decoration: none;
 }
 
 header {
@@ -58,27 +59,27 @@ nav>ul {
 }
 
 nav>ul>li {
-    color: #dfdfe2;
+    background-color: #663434;
+    color: #f5f8e4;
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
+    text-decoration: none;
+    outline: none;
+    border: 0;
 }
 
 nav>ul>li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
+    background-color: #f5f8e4;
+    color: #663434;
     cursor: pointer;
 }
 
-li>a {
+/* li>a {
     color: #dfdfe2;
     text-decoration: none;
-}
-
-li>a:hover {
-    color: #663434;
-    /* text-decoration: none; */
-}
+    border: 0;
+} */
 
 main {
     padding-top: 50px;
