@@ -64,9 +64,6 @@ nav>ul>li {
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
-    text-decoration: none;
-    outline: none;
-    border: 0;
 }
 
 nav>ul>li:hover {
@@ -75,11 +72,10 @@ nav>ul>li:hover {
     cursor: pointer;
 }
 
-/* li>a {
-    color: #dfdfe2;
+li>a {
+    color: inherit;
     text-decoration: none;
-    border: 0;
-} */
+}
 
 main {
     padding-top: 50px;
@@ -128,6 +124,21 @@ h2 {
     border-bottom: 4px solid #f5f8e4;
     margin-top: 0px;
     padding-top: 60px;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.post-image {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
 }
 
 footer,
